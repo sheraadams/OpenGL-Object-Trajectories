@@ -17,8 +17,6 @@ https://github.com/JoeyDeVries/LearnOpenGL/blob/master/LICENSE.md
 
 ## References
 
-Infraction. 2022. Losing Control. Losing Control. 2022.
-
 Learn OpenGL, extensive tutorial resource for learning Modern OpenGL. (n.d.-c). https://learnopengl.com/
 
 Pink Wings Image by pisut via stock.adobe.com
@@ -27,7 +25,7 @@ Background Image by november1711via stock.adobe.com
 Fox  Images by Pch.vector via Freepik.com
 Heart Image by @rawpixel.com via Freepik.com
 
-Music by Infraction. 2022. Chrome. Chrome. 2022.
+Music by Infraction. 2022. Losing Control. Losing Control. 2022.
 https://infractionroyaltyfreemusic.bandcamp.com/track/epic-dubstep-no-copyright-music
 https://inaudio.org/blog/what-is-royalty-free-music/
 
