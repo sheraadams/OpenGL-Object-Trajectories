@@ -1,6 +1,6 @@
 ## Documentation
 
-Watch the video: https://www.youtube.com/watch?v=LrfIIjsU1vo
+Watch the video: https://www.youtube.com/watch?v=c5RFPHyaFz4
 
 ## About
 This game was inspired by LearnOpenGL's Breakout game. The game mechanics and physics are different. I added parallax scrolling and the inverted rendering is used here but the x and y axis remain and parallax scrolling continues. This is a pvp style game where you charm-attack the second player with hearts. 
