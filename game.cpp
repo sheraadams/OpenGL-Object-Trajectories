@@ -1,7 +1,7 @@
 int Game::RandomInt()
 {
-    int animalNum = rand() % 5 + 1;
-    return animalNum;
+    int randNum = rand() % 5 + 1;
+    return randNum;
 }
 void Game::ProcessInput(float dt)
 {
@@ -20,15 +20,15 @@ void Game::ProcessInput(float dt)
     Heart5->Position.x += velocity;
 
     // flying effect 1
-    Birds->Position.x += velocity / AnimalNum();
+    Birds->Position.x += velocity / RandomInt();
 
     // flying effect 2
-    Player2->Position.y += velocity / AnimalNum();
+    Player2->Position.y += velocity / RandomInt();
     if (Player2->Position.y <= this->Height - Player2->Size.y)
     {
-        Player2->Position.y -= velocity / AnimalNum();
+        Player2->Position.y -= velocity / RandomInt();
     }
     if (Player2->Position.x <= this->Height - 2 * Player2->Size.x)
     {
-        Player2->Position.x -= velocity / AnimalNum();
+        Player2->Position.x -= velocity / RandomInt();
 }
