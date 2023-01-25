@@ -5,7 +5,7 @@ int Game::RandomInt()
 }
 void Game::ProcessInput(float dt)
 {
-    float velocity = PLAYER_VELOCITY * deltaTime;
+    float velocity = PLAYER_VELOCITY * dt;
 
     // gravity and trajectory effect
     Heart->Position.y += velocity / RandomInt();
@@ -31,4 +31,8 @@ void Game::ProcessInput(float dt)
     if (Player2->Position.x <= this->Height - 2 * Player2->Size.x)
     {
         Player2->Position.x -= velocity / RandomInt();
+        
+    }
+    
+
 }
